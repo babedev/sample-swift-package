@@ -4,6 +4,8 @@ struct Sample_Library {
 
 public class Library {
     
+    public init() {}
+    
     public func yo() -> String {
         let message = Sample_Library.init()
         return message.text
